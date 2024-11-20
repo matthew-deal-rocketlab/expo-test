@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "expo test",
+    "slug": "expo-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dealsyorg.expotest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dealsyorg.expotest"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c76ccbf0-956a-45b3-aef8-6d1a55ce400d"
+      }
+    },
+    "owner": "dealsy-org",
+    "updates": {
+      "url": "https://u.expo.dev/c76ccbf0-956a-45b3-aef8-6d1a55ce400d"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
