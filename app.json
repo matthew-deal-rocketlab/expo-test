@@ -17,7 +17,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.dealsyorg.expotest"
+      "package": "com.dealsyorg.expotest",
+      "runtimeVersion": "~52.0.9"
     },
     "web": {
       "bundler": "metro",
