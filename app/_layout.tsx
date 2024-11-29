@@ -42,6 +42,18 @@ export default function RootLayout() {
           ),
         }}
       />
+
+      <Tabs.Screen
+        name="camera"
+        options={{
+          title: "Camera",
+          tabBarIcon: ({ color, size }) => (
+            <Link href="/camera">
+              <Ionicons name="camera" size={size} color={color} />
+            </Link>
+          ),
+        }}
+      />
     </Tabs>
   );
 }
